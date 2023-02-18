@@ -1,0 +1,17 @@
+[features]
+seeds = false
+[programs.localnet]
+solana_management_system = "63uptqg9z6XpNXxHdesENUZXzvR4G42pHFetqn7jENR7"
+
+[programs.devnet]
+solana_management_system = "63uptqg9z6XpNXxHdesENUZXzvR4G42pHFetqn7jENR7"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/usuario/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"

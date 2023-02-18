@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.title{
+  font-size: 50px;
+}
+
+.sub-title {
+  font-size: 15px;
+  border: 2px solid wheat;
+  width: fit-content;
+  align-self: center;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
